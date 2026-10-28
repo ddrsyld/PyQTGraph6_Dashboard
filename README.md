@@ -186,32 +186,6 @@ Python_Version/
 
 ---
 
-## 🚀 Panduan Push ke GitHub (Untuk Pengembang)
-
-Jika Anda baru pertama kali membuat repository di GitHub untuk folder ini, jalankan perintah berikut di terminal:
-
-```bash
-# 1. Inisialisasi Git di dalam folder ini
-git init
-
-# 2. Tambahkan semua file (file cache dan folder build otomatis diabaikan berkat .gitignore)
-git add .
-
-# 3. Lakukan commit pertama
-git commit -m "feat: initial commit CellGuys BMS Telemetry Dashboard with auto-launcher"
-
-# 4. Buat branch utama 'main'
-git branch -M main
-
-# 5. Hubungkan ke repositori GitHub Anda (ganti URL di bawah dengan URL repo GitHub Anda)
-git remote add origin https://github.com/<username-github>/<nama-repo>.git
-
-# 6. Push kode ke GitHub
-git push -u origin main
-```
-
----
-
 ## 👨‍💻 Tim Pengembang & Lisensi
 
 Proyek ini dikembangkan oleh tim inovasi **CellGuys** untuk **Samsung Innovation Campus (SIC) Batch 8 Stage 2**.  
